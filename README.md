@@ -1,7 +1,7 @@
 # ReqCatch
 
-Basic Node.JS app allowing to catch POST requests with JSON body. After that we can make a GET request to get 
-the latest requests back (reversed). 
+Basic Node.JS devtool app allowing to catch `POST` requests with JSON body. After that we can make a `GET` request to get 
+the latest requests back (reversed). Sending `DELETE` clears the history.
 
 Assumptions:
  - All caught requests are stored in memory.
