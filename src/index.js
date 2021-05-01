@@ -18,7 +18,7 @@ app.get('/', (req, res) => {
 app.post('/', (req, res) => {
     if (req.body) {
         messages = messages.concat({
-            time: Date.now(),
+            time: new Date(Date.now()),
             message: req.body
         })
         if (messages.length > max_messages) {
